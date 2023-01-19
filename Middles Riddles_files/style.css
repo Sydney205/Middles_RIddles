@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Roboto&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Rubik&display=swap");
+
+
 body {
  display: flex;
  flex-direction: column;
