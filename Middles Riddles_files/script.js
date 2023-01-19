@@ -1,27 +1,25 @@
 // The start button function
 const start = () => {
-   window.location.href = 'Middles Riddles_files/riddles.html';
+    window.location.href = 'Middles Riddles_files/riddles.html';
 }
 
-// The Correct Answer
-const correctAnswer = 'footstep';
-
-// The user's answer...
-
-// The input box
-const box = document.getElementById('answer');
-
 const onInputChange = (e) => {
-   e.target.value;
+    e.target.value;
 }
 
 //onSubmit...
 const submit = () => {
-   if (box.value == correctAnswer) {
-      alert('correct'); // would change this later to something better
-   } else {
-      alert('wrong');
-   }
+
+    // The Correct Answer
+    const correctAnswer = 'footstep';
+
+    // The input box
+    const box = document.getElementById('answer');
+    if (box.value == correctAnswer) {
+        alert('correct'); // would change this later to something better
+    } else {
+        alert('wrong');
+    }
 }
 
 
