@@ -8,6 +8,12 @@ body {
  text-align: center;
 }
 
+h1 {
+ font-size: 3rem;
+}
+
 input {
+ width: 40vw;
  margin-bottom: 1rem;
 }
+
