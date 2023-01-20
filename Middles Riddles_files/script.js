@@ -3,10 +3,6 @@ const start = () => {
     window.location.href = 'Middles Riddles_files/riddles.html';
 }
 
-const onInputChange = (e) => {
-    e.target.value;
-}
-
 //onSubmit...
 const submit = () => {
 
