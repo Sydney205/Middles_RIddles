@@ -39,7 +39,6 @@ body {
  text-align: center;
 }
 
-@media screen and (max-width: 850px) {
 h1 {
  font-size: 3rem;
  font-family: Lobster;
@@ -48,6 +47,4 @@ h1 {
 input {
  width: 40vw;
  margin-bottom: 1rem;
-}
-
 }
