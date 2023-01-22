@@ -3,6 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Rubik&display=swap");
 
+* {
+	box-sizing: border-box;
+}
 
 body {
 	display: flex;
@@ -25,6 +28,15 @@ input {
 	border: none;
 }
 
+button {
+	width: 15%;
+	padding: 3% 3%;
+	color: black;
+	font-size: large;
+	box-shadow: crimson 10px 10px;
+	background-color: yellow;
+	border: none;
+}
 
 input {
 	height: 5em;
