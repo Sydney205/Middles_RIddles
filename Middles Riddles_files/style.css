@@ -3,24 +3,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Rubik&display=swap");
 
+* {
+	box-sizing: border-box;
+}
 
 body {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- height: 100%;
- width: 100%;
- text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(144, 227, 238);
 }
 
 h1 {
- font-size: 3rem;
- font-family: Lobster;
+	font-size: 3rem;
+	font-family: Lobster;
 }
 
 input {
- width: 40vw;
- margin-bottom: 1rem;
+	width: 50vw;
+	border: none;
 }
 
+button {
+	width: 15%;
+	padding: 3% 3%;
+	color: black;
+	font-size: large;
+	box-shadow: crimson 10px 10px;
+	background-color: yellow;
+	border: none;
+}
+
+input {
+	height: 5em;
+	padding: 3%;
+}
