@@ -19,12 +19,12 @@ body {
 }
 
 h1 {
-	font-size: 10em;
+	font-size: 72px;
         font-family: Rubik;
 }
 
 p {
-       font-size: 4em;
+       font-size: 1.7em;
 }
 
 input {
@@ -45,4 +45,14 @@ button {
 input { 
 	height: 7em;
 	padding: 3%;
+}
+
+@media screen and (max-width: 850px) {
+ 
+    h1 {
+         font-size: 10em;
+     }
+
+  p {
+       font-size: 4em;
 }
