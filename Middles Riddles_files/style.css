@@ -33,7 +33,7 @@ input {
 }
 
 button {
-	width: 50%;
+	width: 30%;
 	padding: 3% 3%;
 	color: black;
 	font-size: large;
@@ -57,5 +57,13 @@ input {
 
     p {
          font-size: 4em;
+     }
+
+    button {
+         width: 50%;
+     }
+
+    input {
+         width: 90%;
      }
 }
