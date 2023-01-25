@@ -44,7 +44,7 @@ button {
 }
 
 input { 
-	height: 7em;
+        height: 5em;
 	padding: 3%;
         font-size: 2em;
 }
@@ -63,7 +63,8 @@ input {
          width: 50%;
      }
 
-    input {
+    input { 
+         height: auto;
          width: 90%;
      }
 }
