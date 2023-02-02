@@ -1,0 +1,23 @@
+{
+  "name": "Middles Riddles",
+  "version": "1.0.0",
+  "description": "A simple Riddle game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified \" && exit 1" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sydney205/Middles_Riddles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sydney205/Middles_Riddles/issues"
+  },
+  "homepage": "https://github.com/Sydney205/Middles_Riddles#readme",
+  "dependencies": {
+    "sweetalert2": "^11.7.1"
+  }
+}
