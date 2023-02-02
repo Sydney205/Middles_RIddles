@@ -16,13 +16,13 @@ const submit = () => {
              title: "Correct!",
              text: "You're Correct!",
              icon: "success",
-             html: `<button onclick='next()'>Next</button>`,
+             button: "next"
         }); //  Sweetalert2 it's a better replacement for JavaScript alert
     } else {
        swal({
              title: "Wrong",
              text: "Wrong try again!",
-             icon: "failed",
+             icon: "warning",
              button: "Again"
         });
     }
