@@ -12,7 +12,12 @@ const submit = () => {
     // The input box
     const box = document.getElementById('answer');
     if (box.value == correctAnswer) {
-        alert('correct'); // would change this later to something better
+       swal({
+             title: "Correct!",
+             text: "You're Correct!",
+             icon: "success",
+             button: "Next",
+        }); // would change this later to something better
     } else {
         alert('wrong');
     }
